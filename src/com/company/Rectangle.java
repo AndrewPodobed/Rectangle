@@ -18,6 +18,9 @@ public class Rectangle {
     }
 
     double calculateArea() {
+        if (x != 0 && y != 0){
+            createdRectangles++;
+        }
         return x * y;
     }
 
@@ -27,6 +30,7 @@ public class Rectangle {
 
 
     public void printRectagleKind() {
+
         if (x == 0 && y == 0) {
             System.out.println("Площадь равна 0");
         } else if (x != y) {
@@ -34,7 +38,6 @@ public class Rectangle {
         } else if (x == y) {
             System.out.println("Это квадрат");
         }
-        createdRectangles++;
 
     }
 

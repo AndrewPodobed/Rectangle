@@ -13,7 +13,15 @@ public class Main {
 
         Rectangle rectangle3 = new Rectangle();
         rectangle3.x = 10;
-        rectangle3.y = 10;
+        rectangle3.y = 12;
+
+//        Rectangle rectangle4 = new Rectangle();
+//        rectangle4.x = 11;
+//        rectangle4.y = 10;
+//
+//        Rectangle rectangle5 = new Rectangle();
+//        rectangle5.x = 19;
+//        rectangle5.y = 10;
 
 
         System.out.print("Площадь фигуры № 1 равна " + rectangle1.printArea() + " - и ");
@@ -22,6 +30,10 @@ public class Main {
         rectangle2.printRectagleKind();
         System.out.print("Площадь фигуры № 3 равна " + rectangle3.printArea() + " - и ");
         rectangle3.printRectagleKind();
+//        System.out.print("Площадь фигуры № 4 равна " + rectangle4.printArea() + " - и ");
+//        rectangle4.printRectagleKind();
+//        System.out.print("Площадь фигуры № 4 равна " + rectangle5.printArea() + " - и ");
+//        rectangle5.printRectagleKind();
 
 
         System.out.print("Фигуры №1 и № 2 ");
