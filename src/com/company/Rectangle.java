@@ -5,22 +5,19 @@ public class Rectangle {
     double y;
     static private int createdRectangles;
 
-    public void Rectangle(double x, double y) {
+        public Rectangle(double x, double y) {
         this.x = x;
         this.y = y;
+        createdRectangles++;
     }
 
-    public void Rectangle(double x) {
+    public Rectangle(double x) {
         this.x = x;
         this.y = x;
-
-
+        createdRectangles++;
     }
 
     double calculateArea() {
-        if (x != 0 && y != 0){
-            createdRectangles++;
-        }
         return x * y;
     }
 
